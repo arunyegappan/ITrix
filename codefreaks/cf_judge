@@ -1,0 +1,20 @@
+<ul>PRELIMS:</ul>
+    <li><p>Most number of correctly/most appropriately answered questions</p></li>
+    <li><p>Most number of correctly answered starred questions in case of a tie</p></li>
+<ul>FINALS :</ul>
+
+    Programming languages allowed are C,C++,Java only
+    Contestants should be familiar with gcc/g++/java compilers and the Linux environment
+    There can be at most 10 submissions for a problem from a team
+    The standard input and output streams can be assumed, unless specified otherwise
+    Using system calls or other system hacks is strictly prohibited
+    Time and/or memory constraints will be provided for all the questions
+    The results are finalized based on
+
+                    (a) Number of problems solved                     
+
+                    (b) Time of last submission    
+
+                (c) Total number of submissions        
+
+ in the specified order	

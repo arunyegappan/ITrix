@@ -1,0 +1,14 @@
+.article{
+	margin-left: 35px;
+	padding-top: 5px;	
+	color: #FFF;	
+	font-family:"Lucida Grande", arial, sans-serif;
+}
+
+#accom_desc{
+    padding-top: 5px;
+}
+
+.article p{
+    font-size: 1em;    
+}

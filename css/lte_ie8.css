@@ -1,0 +1,359 @@
+@charset "utf-8";
+/* CSS Document */
+
+#window{
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.mybox
+{
+    margin-top: -5px;
+	margin-bottom: 15px;
+	height: 220px;
+	background-image: url("../images/main_logos/bluelogo1220.jpg");
+	
+	border-left: 1px solid #141414;
+	border-right: 1px solid #141414;
+	border-bottom: 1px solid #141414;	
+}
+
+#logo{
+    padding: 2px;
+}
+
+/*menu styles*/
+#menulogin
+{    
+    margin-top: -20px;
+    float: left;
+	margin-right: 10px;
+}
+
+#mainmenu
+{
+}
+
+#menu 
+{
+	font-family:"Lucida Grande", arial, sans-serif;
+	background:#F3F3F3;	
+}
+
+ul#menu
+{
+	list-style-type:none;	
+}
+
+ul#menu li
+{
+	
+	margin:1px;
+	width:90px;
+	height:50px;
+	float:left;
+	color:#000;/*191919;*/
+	text-align:center;
+	cursor: pointer;
+	overflow:hidden;
+}
+
+ul#menu li:hover{
+  width: 100px;
+  color: #FFF;  
+}
+
+ul#menu p
+{
+	padding:0px 5px;
+}
+
+.subtext
+{
+	padding-top:15px;
+}
+
+ul#menu li a
+{
+	color:#000;
+	text-decoration:none;
+}
+
+
+.purple{background:#FFF url(../images/main_logos/bluebutton.jpg) top left no-repeat;}
+ul#menu li.accom_purple
+{
+        width: 120px;
+		background:#FFF url(../images/main_logos/bluebutton20.jpg) top left no-repeat;
+}
+
+#menu .current
+{
+	margin-top:10px;	
+}
+/*menu style ends*/
+
+/*update bar begins*/
+#updatebar
+{
+    width:1000px;
+	overflow:hidden;
+    background-color: #0180E9;	
+	
+	border: 1px solid #fff;
+	
+}
+
+.updatebar_content{
+     background-color: #0180E9;	
+}
+
+.slideshow { height: 30px; width: 870px;  overflow:hidden; }
+
+.slideshow span 
+{ 
+	min-width: 870px;
+	min-height:30px;
+	
+	background-color: #0180E9;
+		
+	overflow:hidden;
+}
+
+#content
+{
+	margin:5px 0px 0 10px;/*top right bottom left*/
+	color: #FFF;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Lucida Grande", arial, sans-serif;
+}
+
+.updatebar_head
+{
+	float:left; 	
+	width: 100px; 
+	height: 25px;
+	padding-top: 5px; 
+	padding-left: 20px;
+	
+	color: #3ea3eb;
+	background-color: #141414;	
+	
+	font-family:"Lucida Grande", arial, sans-serif;	 
+	font-weight:bold;
+		
+    border:1px solid #141414;			
+}
+
+/*update bar ends*/
+
+/* CSS for Events */
+#events
+{       
+    float:left;
+    margin-top: 70px; 
+	color: #0180e9;
+	font-family:"Lucida Grande", arial, sans-serif;
+	background-color: #FFF;
+	width:270px;
+	border:1px solid #FFF;		
+}
+
+#head1{ 
+    padding-bottom: 1px;	 
+    margin: 0px 0px 10px 0px; 	  
+	background-color: #efefef;	
+	cursor: pointer;			
+}
+
+#head2{ 
+	padding-bottom: 1px;	
+    margin: 0px 0px 10px 0px; 	  
+	background-color: #efefef;	
+	cursor: pointer;
+}
+
+#head3{ 
+	padding-bottom: 1px;	
+    margin: 0px 0px 10px 0px; 	  
+	background-color: #efefef;	
+	cursor: pointer;
+}
+
+.label
+{                
+        padding-top: 7px;
+        font-size: 14px;
+		list-style-type: none;
+		color: #000;
+		
+		font-family: "Lucida Grande", arial, sans-serif;
+		font-weight: bold;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		display: block;
+		background: #0180E9;
+		width:200px;
+		height:25px;
+		text-align:center;
+		vertical-align:bottom;
+		
+		/*Border*/
+		border: 1px solid #0180E9;	
+}
+
+.label:hover{
+       background-color: #3ea3eb;
+}
+
+/*event list*/
+#two
+{
+    color: #141414;
+	float:left;
+	width:200px;
+	height:25px;
+	background:#efefef;
+	text-align:center;	
+}
+
+#three
+{
+    color: #141414;
+	width:200px;
+	height:25px;
+	background:#efefef;
+	text-align:center;	
+}
+
+#submenu ul,#submenu li
+{   
+	font-size:1em;	       
+    list-style-type:none;
+	width:200px;
+	height:25px;
+	overflow:hidden;
+}
+
+#three:hover{
+    color: #141414;
+    margin-left:12px;
+	font-size:1em;	
+    background-color: #FFF;
+    
+    border: 1px solid #FFF;
+}	
+
+#events hr{
+   color: #FFF;
+}
+
+#events h2{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#eventlist
+{
+	margin:25px auto 10px 35px;
+	width:200px;
+}
+
+#follow
+{
+	margin:auto auto 10px auto;
+	text-align:center;
+}
+
+#follow table{
+   margin-top: 10px;
+   padding-bottom: 20px;
+   margin-left: 30px;
+}
+
+.follow_hr{
+   margin-top: 30px;
+}
+
+#like{
+   margin-left: 30px;
+}
+
+.onsite,.workshop_events
+{
+	display:none;	
+}
+/*event list style ends*/
+
+/*CSS for main content pane*/
+#main_content{   
+    margin-top: 20px; 
+}
+
+#incontent{
+    float: right;
+	margin-top: 20px;
+	background-color: #FFF;
+	width: 700px;
+	height: 600px;
+	margin-bottom: 100px;
+	
+	border:1px solid #FFF;
+}	
+
+.article{
+    margin-left: 30px;
+	margin-right: 30px;
+	padding-top: 5px;	
+	color: #000;	
+	font-family:"Lucida Grande", arial, sans-serif;	
+}
+
+.article p{ 
+	font-size:14px;
+	line-height: 1.6em;
+}
+
+.article a{
+   text-decoration: none;
+   color: #0180E9; 
+}
+
+#slideshow_image_holder{
+   margin-top:80px;
+   width: 470px;
+   height: 290px;
+   margin: auto;
+   margin-bottom:30px;
+   
+   border:1px solid #FFF;
+}
+
+#slideshow_image{
+   margin: 10px;   
+}
+
+#footer{
+  height: 80px;
+  clear: left;
+  clear: right;
+  font-size: 0.9em;
+  
+  border-top: 1px solid #141414;     
+}
+
+#bestview{
+    float: right;
+	margin-top: 20px;
+	margin-right: 30px;
+	display: inline;
+}
+
+#copyrights{
+    padding-top: 10px;
+    text-align: center;
+    width: 500px;
+	margin:auto;	
+}

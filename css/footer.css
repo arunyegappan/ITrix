@@ -1,0 +1,37 @@
+#footer{
+  height: 80px;
+  clear: left;
+  clear: right;
+  font-size: 0.9em;
+  
+  border-top: 1px solid #141414;     
+  box-shadow: 0px 1px 10px #141414;
+  -moz-box-shadow: 0px 1px 10px #141414;
+  -o-box-shadow: 0px 1px 10px #141414;
+  -ms-box-shadow: 0px 1px 10px #141414;
+  -webkit-box-shadow: 0px 1px 10px #141414;
+}
+
+#bestview{
+    float: right;
+	margin-top: 20px;
+	margin-right: 30px;
+	display: inline;
+}
+
+#copyrights{
+    width: 300px;
+	margin:auto;	
+}
+
+#copy{	
+ 	 padding-top: 10px;	 
+	 margin-left: 130px;
+}
+
+#ista_footer{
+    float: left;
+	border-right: 3px solid #9f9f9f;
+	padding: 5px;
+	padding-right: 10px;    	
+}

@@ -1,0 +1,140 @@
+#incontent{
+	height: 760px;
+}	
+
+#main_contacts{
+   color: #000;
+   font-family:"Lucida Grande", arial, sans-serif;	
+   margin-top: 30px;
+}
+
+.details{
+    font-weight: bold;
+	font-size: 20px;
+	color: #141414;
+	clear: left;
+	display: block;
+	padding-top: 10px;
+}
+
+.d1{
+	clear: left;
+	display: block;
+	width: 600px;
+	color: #efefef;
+}
+
+.ph_number{
+    font-style: oblique;
+}
+
+ul#spon_list
+{
+	list-style-type:none;	
+}
+
+ul#spon_list li
+{	
+	margin-left: 120px;
+	color:#000;
+	text-align:center;
+	float: left;
+	overflow:hidden;
+    padding-bottom: 10px;	
+}
+
+ul#evnt_list
+{
+	list-style-type:none;	
+}
+
+ul#evnt_list li
+{	
+	margin-left: 120px;
+	color:#000;
+	text-align:center;
+	float: left;
+	overflow:hidden;	
+    padding-bottom: 10px;		
+}
+
+ul#ws_mark_list
+{
+	list-style-type:none;	
+}
+
+ul#ws_mark_list li
+{	
+	margin-left: 120px;
+	color:#000;
+	text-align:center;
+	float: left;
+	overflow:hidden;	
+    padding-bottom: 10px;		
+}
+
+ul#logis_list
+{
+	list-style-type:none;	
+}
+
+ul#logis_list li
+{	
+	margin-left: 120px;
+	color:#000;
+	text-align:center;
+	float: left;
+	overflow:hidden;	
+    padding-bottom: 0px;		
+}
+
+ul#wdt_list{
+	list-style-type:none;	
+}
+
+ul#wdt_list li
+{	
+    margin-left: 120px;
+	color:#000;
+	text-align:center;
+	float: left;
+	overflow:hidden;
+    padding-bottom: 10px;		
+}
+
+li{
+   line-height: 1.8em;
+}
+
+#spon{
+   display: block;
+   margin-left: 300px   
+}
+
+#evnt{
+   margin-left: 316px   
+}
+
+.title{
+    font-weight: bold;
+	font-size: 20px;
+	color: #141414;
+}
+
+#logis{
+   margin-left: 250px;
+}
+
+#wdt{
+   margin-left: 250px;
+}
+
+.ph_number{
+    font-style: oblique;
+	background: url("../images/main_logos/phone_2.gif") left no-repeat;
+	padding-left: 15px;
+}
+
+#footer{
+  margin-top: 120px;
+ }

@@ -1,0 +1,139 @@
+#countdown{
+        margin-top: 7px;
+	float: right;
+}
+
+/* timer numbers */
+.timer_numbers {
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-align:left;
+	color:#efefef;
+}
+
+#timer_days {
+	background:-moz-linear-gradient(19% 70% 90deg,#4f4f4f,#141414);
+	background:-webkit-gradient(linear, 0% 0%, 0% 80%, from(#141414), to(#4f4f4f));
+	background: -o-linear-gradient(#141414,#4f4f4f);
+	background: -ms-linear-gradient(#141414,#4f4f4f);
+
+	border-right: 1px solid #dfdfdf;
+
+	/*float:left;
+	display: inline;*/
+	width:35px;
+	height:30px;
+	padding:10px 0 4px 8px;
+	letter-spacing:4px;
+}
+
+#timer_days:hover {
+	transform : scale(1.1);
+	-webkit-transform : scale(1.1);
+	-o-transform : scale(1.1);
+	-moz-transform : scale(1.1);
+}
+
+#timer_hours {
+	background:-moz-linear-gradient(19% 70% 90deg,#4f4f4f,#141414);
+	background:-webkit-gradient(linear, 0% 0%, 0% 80%, from(#141414), to(#4f4f4f));
+	background: -o-linear-gradient(#141414,#4f4f4f);
+	background: -ms-linear-gradient(#141414,#4f4f4f);
+	border-right: 1px solid #dfdfdf;
+	
+	/*float:left;
+	display: inline;*/
+
+	width:35px;
+	height:30px;
+	padding:10px 0 4px 8px;
+	letter-spacing:4px;
+}
+
+#timer_hours:hover {
+	transform : scale(1.1);
+	-webkit-transform : scale(1.1);
+	-o-transform : scale(1.1);
+	-moz-transform : scale(1.1);
+}
+
+#timer_mins {
+	background:-moz-linear-gradient(19% 70% 90deg,#4f4f4f,#141414);
+	background:-webkit-gradient(linear, 0% 0%, 0% 80%, from(#141414), to(#4f4f4f));
+	background: -o-linear-gradient(#141414,#4f4f4f);
+	background: -ms-linear-gradient(#141414,#4f4f4f);
+	border-right: 1px solid #dfdfdf;
+
+	/*float:left;
+	display: inline;*/
+	width:35px;	
+	height:30px;
+	padding:10px 0 4px 8px;
+	letter-spacing:4px;
+}
+
+#timer_mins:hover {
+    transform : scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
+
+#timer_seconds {
+	background:-moz-linear-gradient(19% 70% 90deg,#4f4f4f,#141414);
+	background:-webkit-gradient(linear, 0% 0%, 0% 80%, from(#141414), to(#4f4f4f));
+	background: -o-linear-gradient(#141414,#4f4f4f);
+	background: -ms-linear-gradient(#141414,#4f4f4f);
+	/*float:left;
+	display: inline;*/
+	width:35px;
+	height:30px;
+	padding:10px 0 4px 8px;
+	letter-spacing:6px;
+}
+
+#timer_seconds:hover {
+    transform : scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
+
+/* timer labels 
+.timer_labels {
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-align:center;
+	color:#FFF;	
+	float: right;
+}
+
+#timer_labels {
+/*	position:relative;*/     
+}
+
+#timer_days_label {
+/*	position:absolute;
+	top:327px;
+	left:1155px;	*/
+}
+
+#timer_hours_label {
+	/*position:absolute;
+	top:327px;
+	left:1200px;*/	
+}
+
+#timer_mins_label {
+	/*position:absolute;
+	top:327px;
+	left:1240px;	*/
+}
+
+#timer_seconds_label {
+	/*position:absolute;
+	top:327px;
+	left:1285px;*/
+}*/
